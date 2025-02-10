@@ -5,7 +5,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   return (
     <div>
-      <nav>
+      <nav className="navbar">
         <div>
           <Link className="title" to="/">
             Calculator
